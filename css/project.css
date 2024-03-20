@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+
+}
+ul li{
+list-style: none;
+float: left;
+}
+ul li a{
+    text-decoration: none;
+    width: 90px;
+    height: 50px;
+    /* background-color: rgb(216, 140, 140); */
+    color: black;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 5px;
+}
+ul ul{
+    display: none;
+}
+ul ul li{
+    float: none;
+}
+ul ul li a{
+    /* background-color: rgb(113, 113, 217);    */
+    color:black;
+}
+ul li a:hover{
+    background-color: white;
+    color:rgb(250, 194, 50);
+}
+ul li:hover ul{
+    display: block; 
+}

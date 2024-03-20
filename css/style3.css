@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+
+}
+ul li{
+    list-style: none;
+    float: left;
+}
+ul li a{
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    display: block;
+    margin-left: 5px;
+    text-align: center;
+    line-height: 50px;
+}
+ul ul{
+    display: none;    
+}
+ul ul li{
+    float: none;
+}
+ul ul li a{
+    background-color: blueviolet;
+    color: white;
+}
+ul li a:hover{
+    background-color: black;
+    color: white;
+}
+ul li:hover ul{
+    display: block;
+}

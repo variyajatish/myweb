@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+.w-100{
+    width: 100%;
+}
+.bg-color{
+    background-color: #003366;
+    height: 50px;
+}
+.w-1140{
+    width: 1140px;
+    margin: auto;
+    position: relative;
+}
+.w-33{
+    width: 33.33%;
+    height: 50px;
+    /* background-color: blue; */
+    float: left;
+}
+.w-25{
+    width: 25%;
+    height: 90px;
+    /* background-color: aqua; */
+    float: left;
+}
+.w-75{
+    width: 75%;
+    height: 90px;
+    /* background-color: black; */
+    float: right;
+}
+.w-menu{
+    width: 100%;
+    height: 500px;
+    /* background-color: blue; */
+    position: absolute;
+    left: 0px;
+    margin-top:90px;
+}
+.w-2{
+     
+}
+.w-33 ul{
+
+}
+.w-33 ul li{
+
+}
+.w-33 ul li a{
+    color: white;
+    float: left;
+    margin-left: 45px;
+}
+.w-15{
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+.w-16{
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 0px;
+    float: left;
+}
+.logo{
+    width: 50%;
+    height: 50px;
+    margin-left: 0px;
+    color: white;
+    float: right;
+}
+.w-33 ul li a:hover{
+    color: rgb(250, 194, 50);
+}
+.img{
+    width: 230px;
+    height: 70px;
+    margin: 13px 30px ;
+}
+.menu{
+    margin-left:150px;
+}
+.menu ul{
+
+}
+.menu ul li{
+    
+}
+.menu ul li a{
+    /* background-color: red; */
+    color: black;
+    text-align: center;
+    line-height:90px;
+    float: left;
+    padding-left:20px;
+    font-size: 15px;
+}
+.w-menu{
+    display: none;
+}
+.box-25{
+    width:calc(25% - 56px);
+    height: 340px;
+    background-color: ;
+    color: black;
+    padding: 28px;
+    float: left;
+}  
+.box-25 ul{
+   float: left;
+}
+.box-25 ul li{
+    margin-left: 0px;
+    /* width: 100%; */
+}
+.box-25 ul li a{
+    width: 100%;
+    height: 30px;
+    /* margin: 0px 0px; */
+    /* padding: 0px; */
+    background: none;
+    color: black;
+    margin-left: 0px;
+    font-size: 16px;
+}
+.box-25 h3{
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+.menu ul li:hover .w-menu{
+    display: block;
+}
+.menu ul li a:hover{
+    color: rgb(250, 194, 50);
+}
+.box-25 ul li a:hover{
+    color: rgb(250, 194, 50);
+}
+.box-25 h3:hover{
+    color: rgb(250, 194, 50);
+}
+
