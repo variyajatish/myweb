@@ -53,7 +53,7 @@ ul li a{
     font-weight: 700;
 }
 span{
-    color: red;
+    color:#ce1212;
 }
 .menu{
     
@@ -351,8 +351,8 @@ img{
 }
 .w-600{
     width: 100%;
-    height: 800px;
-    background-color: yellow;
+    height: 1100px;
+    /* background-color: yellow; */
     padding: 80px 0px;
 }
 .heding-3{
@@ -370,10 +370,94 @@ img{
     width: 100%;
     height: 48px;
     /* background-color: burlywood; */
+    padding: 0px 0px 30px;
 }
 .heding-4 p{
     font-size: 40px;
     font-weight: 400;
     text-align: center;
     line-height: 48px;
+}
+.menu-1{
+    width: 100%;
+    height: 50px;
+    /* background-color: red; */
+}
+.menu-1 ul{
+    display: flex;
+    justify-content: center;
+}
+.menu-1 ul li{
+
+}
+.menu-1 ul li a{
+    color: black;
+    text-align: center;
+    line-height:50px;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+.menu-1 ul li a:hover{
+    color:#ce1212;
+}
+.dinner-menu{
+    width: 100%;
+    height: 60px;
+    /* background-color:navajowhite; */
+    padding: 20px 0px;
+}
+.heding-5{
+    width: 100%;
+    height: 25px;
+    /* background-color: burlywood; */
+}
+.heding-5 p{
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+}
+.heding-6{
+    width: 100%;
+    height: 35px;
+    /* background-color: red; */
+}
+.heding-6 h3{
+    color: #ce1212;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 35px;
+}
+.row-menu{
+    width: 100%;
+    height: 800px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-wrap: wrap;
+    padding-top:20px ;
+}
+.menu-box{
+    width: 380px;
+    height: 430px;
+    /* background-color:darkorange; */
+    text-align: center;
+}
+.menu-box img{
+    width: 270px;
+    height: 270px;
+}
+.menu-box h4{
+    font-size: 22px;
+    color: #37373f;
+    margin-top: 20px;
+}
+.menu-box p{
+    font-size: 20px;
+    color: #8d8d9b;
+    margin-top: 10px;
+}
+.menu-box h2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 700;
 }
