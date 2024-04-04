@@ -82,8 +82,10 @@ span{
     color: white;
     text-align: center;
     line-height: 90px;
-    padding: 8px 20px;
+    padding: 10px 20px;
     border-radius: 50px;
+    font-weight: 500;
+    font-size: 17px;
 }
 .w-200{
     width: 100%;
@@ -115,8 +117,10 @@ span{
 }
 .w-40 {
     width: 30%;
+    height: 20px;
     background: #ce1212;
     text-align: center;
+    line-height: 17px;
     padding: 15px 9px;
     border-radius: 50px;
 }
@@ -140,7 +144,6 @@ span{
 .video i{
     color:#ce1212;
     font-size: 35px;
-    justify-content: center;
 }
 .img{
     width: 450px;
@@ -873,7 +876,7 @@ textarea{
 .w-1300{
     width: 100%;
     height: 300px;
-    background-color: #1f1f24;
+    background-color: #1f1f24fd;
 }
 .fr-box{
     width: 100%;
