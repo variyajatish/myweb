@@ -5,8 +5,7 @@
 .w-100{
     width: 100%;
     height: 90px;
-    /* background-color: red; */
-    
+    /* background-color: red; */  
 }
 .w-1140{
     width: 1140px;
@@ -31,10 +30,10 @@
     /* background-color: cadetblue;     */
 }
 .flex{
-    display: flex;
+    display: flex;   
 }
 ul{
-
+    
 }
 ul li{
     list-style: none;
@@ -61,6 +60,7 @@ span{
 .menu ul{
     display: flex;
     justify-content: center;
+    position: relative;
 }
 .menu ul li{
     
@@ -73,8 +73,71 @@ span{
     font-weight: 600;
     padding: 10px 0px 10px 25px;
 }
+.dropdown-100{
+    width: 100px;
+    height: 100px;
+    /* background-color: yellow; */
+}
+.dropdown{
+    width: 200px;
+    height: 230px;
+    background-color:white;
+    display: none;
+    position: absolute;
+    position: relative;
+    border-radius: 5px;
+}
+.dropdown ul{
+    display: flex;
+    flex-direction: column;
+}
+.dropdown ul li{   
+    width: 200px;
+    height: 42px;
+}
+.dropdown ul li a{
+    font-size: 15px;
+    font-weight: 900;
+    font-size: 17px;
+    text-align: center;
+    line-height: 60px;
+}
+.menu ul li:hover .dropdown{
+    display: block;
+}
+.dropdown-2{
+    width: 200px;
+    height: 230px;
+    background-color:white;
+    display: none;
+    position: absolute;
+    right: 200px;
+    top: 45px;
+    border-radius: 5px;
+}
+.dropdown-2 ul{
+    display: flex;
+    flex-direction: column;
+}
+.dropdown-2 ul li{   
+    width: 200px;
+    height: 42px;
+}
+.dropdown-2 ul li a{
+    font-size: 15px;
+    font-weight: 900;
+    font-size: 17px;
+    text-align: center;
+    line-height: 60px;
+}
+.dropdown ul li:hover .dropdown-2{
+    display: block;
+}
 .menu ul li a:hover{
     color: black;
+}
+.dropdown ul li a:hover{
+    color: #ce1212;
 }
 .w-30 a{
     text-decoration: none;
@@ -199,7 +262,6 @@ img{
     width: 1140px;
     height: 800px;
     /* background-color: red; */
-    
 }
 .frem-1{
     width:60%;
@@ -221,7 +283,6 @@ img{
 .box{
     width: 100%;
     height: 100%;
-    
 }
 .frem-2 p{
     width: 100%;
@@ -251,7 +312,6 @@ img{
     height: 600px;
     background-color:#eee;
     margin-top: 800px;
-    
 }
 .flex-3{
     display: flex;
@@ -352,7 +412,6 @@ img{
     width: 300px;
     height: 150px;
     /* background-color: red; */
-    
 }
 .rowbox-2{
     text-align: center;
@@ -435,7 +494,6 @@ img{
     text-align: center;
     line-height: 25px;
     color: #7f7f90;
-
 }
 .heding-6{
     width: 100%;
@@ -467,7 +525,6 @@ img{
     width: 250px;
     height: 250px;
     margin-top: 20px;
-
 }
 .menu-box h4{
     font-size: 22px;
@@ -603,6 +660,7 @@ img{
     color: white;
     padding-left: 20px;
     padding-top: 10px;
+    /* border-bottom: 2px solid red; */
 }
 .events-box-1 p{
     font-size: 17px;
@@ -622,8 +680,7 @@ img{
     height: 595px;
     /* background-color: red; */
     display: flex;
-    gap: 10px ;
-    
+    gap: 10px;
 }
 .row-box{
     width: 33.33%;
@@ -697,7 +754,6 @@ img{
     width: 768px;
     height: 500px;
     background-color: rgb(55 55 63 / 4%);
-    
 }
 .form-table{
     width: 100%;
@@ -718,7 +774,8 @@ img{
 textarea{
     /* width: 100%; */
     /* padding: 12px 15px; */
-    margin: 10px;
+    margin: 10px;   
+    padding: 12px 15px;
 }
 .row-g2{
     width: 100%;
@@ -744,7 +801,6 @@ textarea{
     height: 330px;
     background-color: #eee;
     padding: 80px 0px;
-    
 }
 .gallery-img{
     width: 100%;
@@ -770,9 +826,6 @@ textarea{
     /* background-color: #ce1212; */
     margin-top: 30px;
 }
-/* .loction iframe{
-    border-radius: 10px;
-} */
 .contact-1{
     width: 100%;
     height: 300px;
@@ -869,7 +922,6 @@ textarea{
     padding: 15px 9px;
     border-radius: 50px;
     margin-left: 410px;
-
 }
 .w-60 a{
     text-decoration: none;
