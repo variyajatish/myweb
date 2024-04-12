@@ -196,8 +196,6 @@ span{
     width: 40%;
     text-align: center;
     padding: 15px 15px;
-    border-radius: 50px;
-    border: 1px red;
 }
 .video a{
     text-decoration: none;
@@ -278,14 +276,33 @@ img{
 .bookbox{
     width: 100%;
     height: 800px;
-    background-color: rgb(61, 159, 216);
-    /* padding: 20px;
-    display: flex;
-    justify-content: center;
-    position: absolute; */
+    /* background-color: aqua; */
 }
 .bookbox-1{
-    width: ;
+    display: flex;
+    height: 800px;
+    justify-content: center;
+}
+.bookbox-2{
+    width: 492px;
+    height: 92px;
+    padding: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 72%;
+    align-items: center;
+    border-radius: 5px;
+}
+.bookbox-2 h4{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.bookbox-2 p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
 }
 .frem-2{
     width: 35%;
@@ -349,7 +366,7 @@ img{
     /* background-color: blue; */
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 .boxis{
     width: 250px;
@@ -360,12 +377,23 @@ img{
 .why-box h3{
     font-size: 45px;
     color: white;
-    
 }
 .why-box p{
     font-size: 20px ;
     color: white;
     padding-top: 40px;
+}
+.boxis:hover{
+    width: 260px;
+    height: 360px;
+    padding: 40px 30px;
+} 
+.boxis:hover p{
+    font-size: 21px;
+    padding-top: 20px;
+}
+.boxis:hover h3{
+    font-size: 47px;
 }
 .btn{
     width: 250px;
@@ -486,7 +514,7 @@ img{
     line-height:50px;
     font-size: 20px;
     padding: 10px 10px;
-    font-weight: 400;
+    font-weight: 540;
 }
 .menu-1 ul li a:hover{
     color:#ce1212;
@@ -1003,7 +1031,7 @@ textarea{
 .copyright p{
     text-align: center;
     line-height:40px;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     margin-top: 25px;
 }
