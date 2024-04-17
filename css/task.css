@@ -32,9 +32,6 @@
 .flex{
     display: flex;   
 }
-ul{
-    
-}
 ul li{
     list-style: none;
 }
@@ -54,17 +51,12 @@ ul li a{
 span{
     color:#ce1212;
 }
-.menu{
-    
-}
 .menu ul{
     display: flex;
     justify-content: center;
     position: relative;
 }
-.menu ul li{
-    
-}
+
 .menu ul li a{
     color: #7f7f90;
     text-align: center;
@@ -507,9 +499,6 @@ img{
 .menu-1 ul{
     display: flex;
     justify-content: center;
-}
-.menu-1 ul li{
-
 }
 .menu-1 ul li a{
     color: black;
@@ -1048,4 +1037,54 @@ textarea{
     font-size: 15px;
     color: white;
     margin-top: 27px;
+}
+@media (max-width:1140px) {
+    .w-100{
+        width: 113%;
+    }
+    .w-200{
+        width: 113%;
+    }
+    .w-300{
+        width: 113%;
+    }
+    .w-400{
+        width: 113%;
+    }
+    .w-500{
+        width: 113%;
+    }
+    .w-600{
+        width: 113%;
+    }
+    .w-700{
+        width: 113%;
+    }
+    .w-800{
+        width: 113%;
+    }
+    .w-900{
+        width: 113%;
+    }
+    .w-1000{
+        width: 113%;
+    }
+    .w-1100{
+        width: 113%;
+    }
+    .w-1200{
+        width: 113%;
+    }
+    .w-1300{
+        width: 113%;
+    }
+}
+@media (max-width:992px) {
+    
+}
+@media (max-width:768px) {
+    
+}
+@media (max-width:576px) {
+    
 }
