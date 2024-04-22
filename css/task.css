@@ -206,7 +206,7 @@ span{
     justify-content: end; 
     /* background-color: blue; */
 }
-img{
+.img img{
     width: 450px;
     height: 450px;
     padding: 0px 12px 0px 12px;
@@ -1030,4 +1030,16 @@ textarea{
     font-size: 15px;
     color: white;
     margin-top: 27px;
+}
+@media (max-width:1200px){
+    
+}
+@media (max-width:992px){
+    
+}
+@media (max-width:768px){
+   
+}
+@media (max-width:576px){
+    
 }
