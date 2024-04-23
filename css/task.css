@@ -1032,14 +1032,126 @@ textarea{
     margin-top: 27px;
 }
 @media (max-width:1200px){
-    
+    .w-200{
+        width: 100%;
+    }
+}
+@media (min-width:993px) and (max-width:1200px) {
+    .w-100{
+        width: 115%;
+    }
+    .w-200{
+        width: 115%;
+    }
+    .w-300{
+        width: 115%;
+    }
+    .w-400{
+        width: 115%;
+    }
+    .w-500{
+        width: 115%;
+    }
+    .w-600{
+        width: 115%;
+    }
+    .w-700{
+        width: 115%;
+    }
+    .w-800{
+        width: 115%;
+    }
+    .w-900{
+        width: 115%;
+    }
+    .w-1000{
+        width: 115%;
+    }
+    .w-1100{
+        width: 115%;
+    }
+    .w-1200{
+        width: 115%;
+    }
+    .w-1300{
+        width: 115%;
+    }
 }
 @media (max-width:992px){
-    
-}
+    .w-200{
+        width: 115%;
+    }
+@media (min-width:769px) and (max-width:991px) {
+    .w-100{
+        width: 150%;
+    }
+    .w-200{
+        width: 150%;
+    }
+    .w-300{
+        width: 150%;
+    }
+    .w-400{
+        width: 150%;
+    }
+    .w-500{
+        width: 150%;
+    }
+    .w-600{
+        width: 150%;
+    }
+    .w-700{
+        width: 150%;
+    }
+    .w-800{
+        width: 150%;
+    }
+    .w-900{
+        width: 150%;
+    }
+    .w-1000{
+        width: 150%;
+    }
+    .w-1100{
+        width: 150%;
+    }
+    .w-1200{
+        width: 150%;
+    }
+    .w-1300{
+        width: 150%;
+    }
+    .flex-1 {
+        flex-direction: column-reverse;
+        align-items: center
+    }
+    .img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .img img {
+        width: 600px;
+        height: 600px;
+        padding: 0px 12px 0px 12px;
+    }
+    .note {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 @media (max-width:768px){
-   
+   .w-200{
+    width: 150%;
+   }
+}
+@media (min-width:577px) and (max-width:760px) {
+    .w-200{
+        width: 198%;
+    }
 }
 @media (max-width:576px){
-    
+    .w-200{
+        width: 200%;
+    }
 }
