@@ -1,3 +1,4 @@
 h1{
-    text-shadow: 20px 20px 3px rgb(175 43 43/100%);
+    /* text-shadow: 20px 20px 3px rgb(175 43 43/100%); */
+    box-shadow: -1px 6px 9px  rgb(0 0 0 / 100%);
 }
