@@ -1,47 +1,65 @@
 *{
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
 }
-.header{
-    background-color: rgb(4, 3, 3);
+.navbar{
     padding: 30px 0px;
+    background-color: black;
 }
 a{
     text-decoration: none;
 }
-.header .logo i{
-    font-size: 32px;
+.logo i{
+    font-size: 30px;
     margin-right: 8px;
-    color: green;
+    color: white;
 }
-.header .logo h1{
-    font-size: 32px;
-    font-weight: 500;
-    color: #fff;
+.logo h1{
+    font-size: 35px;
+    color: white;
     margin: 0px;
 }
-.navbar{
-    padding: 0px;
-}
-.navbar ul{
-    display: flex;
-    list-style: none;
-    align-items: center;
-}
-.navbar li{
-    position: relative;
-}
-.navbar a{
+.nav-link{
     color: white;
-    padding: 10px 0px 10px 30px;
 }
-.header .header-social-links {
-    padding-right: 15px;
+.icon a{
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0px 0px 0px 15px;
 }
-.header .header-social-links a{
-    color: rgb(255, 255, 255,0.5);
+.icon a:hover{
+    color: white;
+}
+.icon i{
     font-size: 20px;
 }
-.header .header-social-links i{
-    padding: 0px 0px 0px 15px;
+.main{
+    width: 100%;
+    padding: 60px 0;
+    background-color: black;
+}
+.container{
+    width: 1140px;
+}
+.hero h2{
+    margin: 0 0 10px 0;
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff;
+}
+.hero p {
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 30px;
+    font-size: 19px;
+}
+.hero .btn-get-started {
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    color: #fff;
+    background: #27a776;
 }

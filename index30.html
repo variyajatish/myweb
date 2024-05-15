@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>task2</title>
+        <title>bootstrap</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -23,33 +23,111 @@
     <body>
         <header>
             <!-- place navbar here -->
-            <header id="header" class="header d-flex align-items-center fixed-top">
-                <div class="container-fluid d-flex align-items-center justify-content-between">
-                    <a href="" class="logo d-flex align-items-center me-auto">
-                        <i class="fa-solid fa-camera"></i>
-                        <h1>PhotoFolio</h1> 
+            <!-- <nav class="navbar navbar-expand-lg bg-dark">
+                <div class="container-fluid">
+                    <a href="" class="logo d-flex align-items-center me-auto me-lg-0">
+                        <i class="fa-solid fa-camera text-success"></i>
+                        <h1>PhotoFolio</h1>
                     </a>
-                    <nav id="navbar" class="navbar">
-                        <ul>
-                            <li><a href="">HOME</a></li>
-                            <li><a href="">ABOUT</a></li>
-                            <li><a href="">GALLERY</a></li>
-                            <li><a href="">SERVICES</a></li>
-                            <li><a href="">CONTACT</a></li>
-                        </ul>
-                    </nav>
-                    <div class="header-social-links">
-                        <a href="#" class="twitter">
-                            <i class="fa-brands fa-twitter"></i>
-                            <i class="fa-brands fa-facebook"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                            <i class="fa-brands fa-linkedin"></i>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-center " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Link</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
                         </a>
-                    </div>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" >Disabled</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-            </header>
+              </nav> -->
+
+              <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="logo navbar-brand d-flex align-items-center" href="#">
+                    <i class="fa-solid fa-camera text-success"></i>
+                    <h1>PhotoFolio</h1>
+                  </a>
+                  <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link " href="#">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          GALLERY
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Nature</a></li>
+                          <li><a class="dropdown-item" href="#">people</a></li>
+                          <li><a class="dropdown-item" href="#">Architecture</a></li>
+                          <li><a class="dropdown-item" href="#">Animals</a></li>
+                          <li><a class="dropdown-item" href="#">Sports</a></li>
+                          <li><a class="dropdown-item" href="#">Sub Menu <i class="fa-solid fa-caret-down"></i></a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICES</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="icon align-items-center justify-content-center">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </nav>
         </header>
-        <main></main>
+        <main>
+          <div class="main d-flex flex-column justify-content-center align-items-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="hero col-lg-6 text-center">
+                  <h2>I'm Jenny Wilson a Professional Photographer from New York City</h2>
+                  <p>Blanditiis praesentium aliquam illum tempore incidunt debitis dolorem magni est deserunt sed qui libero. Qui voluptas amet.</p>
+                  <a href="" class="btn-get-started">Available for hire</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery">
+            <div class="container-fluid">
+              <div class="col-3">
+                <div class="gallery-item h-100">
+                  <img src="https://bootstrapmade.com/demo/templates/PhotoFolio/assets/img/gallery/gallery-1.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
         <footer>
             <!-- place footer here -->
         </footer>
