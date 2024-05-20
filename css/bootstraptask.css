@@ -106,3 +106,16 @@ a{
 .credits a{
     color: #27a776;
 }
+.hero h2 span{
+    position: relative;
+    z-index: 1;
+    padding: 0 5px;
+    display: inline-block;
+    background-color: #27a776;
+    border-radius: 3px;
+}
+.hero h2{
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff;
+}
